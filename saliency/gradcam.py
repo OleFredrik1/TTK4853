@@ -50,7 +50,7 @@ class GradCAM(object):
             return None
 
         if 'vgg' in model_type.lower():
-            target_layer = find_vgg_layer(self.model_arch, layer_name)type
+            target_layer = find_vgg_layer(self.model_arch, layer_name)
         elif 'resnet' in model_type.lower():
             target_layer = find_resnet_layer(self.model_arch, layer_name)
         elif 'densenet' in model_type.lower():

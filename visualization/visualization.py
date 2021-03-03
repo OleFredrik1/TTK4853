@@ -23,7 +23,9 @@ def visualize_mask(mask, cube, ndgrid_idxs=slice(0, 1, 50j)):
         'showgrid': False, 
         'zeroline': False
     }
+    """
     fig.update_layout(scene={
         'xaxis': ax_layout, 'yaxis': ax_layout, 'zaxis': ax_layout
     })
-    fig.show()
+    """
+    return fig # fig.show()
