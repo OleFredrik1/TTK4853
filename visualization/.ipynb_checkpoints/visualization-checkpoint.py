@@ -15,6 +15,7 @@ def visualize_mask(filled, ndgrid_idxs=slice(0, 1, 50j)):
         opacity=0.1,       # needs to be small to see through all surfaces
         surface_count=17,  # needs to be a large number for good volume rendering
     ))
+
     ax_layout = {
         'visible': False, 
         'showticklabels': False, 
