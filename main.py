@@ -17,7 +17,7 @@ from model.preprocessing import UnprocessedDataset, transform_datapoint
 warnings.filterwarnings('ignore')
 logging.basicConfig(
     level=logging.DEBUG, 
-    format='[%(asctime)s] - [%(levelname)s] - %(message)s'
+    format='[%(levelname)s] - %(message)s'
 )
 
 # Parse args
