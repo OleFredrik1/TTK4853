@@ -1,0 +1,16 @@
+dash==1.19.0
+plotly==4.14.3
+torch==1.7.1
+nibabel==3.2.1
+scikit_image==0.18.1
+matplotlib==3.3.3
+dash_core_components==1.15.0
+opencv_contrib_python==4.5.1.48
+scipy==1.5.2
+dash_daq==0.5.0
+dash_html_components==1.1.2
+tqdm==4.30.0
+numpy==1.19.2
+torchvision==0.8.2
+Pillow==8.2.0
+skimage==0.0

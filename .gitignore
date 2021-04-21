@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+__pycache__
+
+TTK4853/data/trained_model.pt
