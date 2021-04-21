@@ -1,3 +1,6 @@
+# A modified version of https://github.com/1Konny/gradcam_plus_plus-pytorch/blob/master/gradcam.py
+# with a new Grad+Cam++ function specialized for sigmoid activation function.
+
 import torch
 import torch.nn.functional as F
 
