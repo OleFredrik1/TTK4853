@@ -1,3 +1,5 @@
+# Modified version of https://github.com/1Konny/gradcam_plus_plus-pytorch/blob/master/utils.py
+
 import torch
 import cv2
 import numpy as np
